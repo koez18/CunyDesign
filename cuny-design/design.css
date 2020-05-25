@@ -1,0 +1,116 @@
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+    font-family: "gill sans";
+    color: #404040;
+    margin: 20px;
+}
+.home {
+    text-decoration: none;
+}
+.programs2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+.programs4 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    padding-right: 10px;
+    justify-content: center;
+}
+.mmp2 {
+    height: 40px;
+    width: 50px;
+}
+.mmp2 img {
+    width: 100%;
+    flex: 100%;
+}
+.card1 {
+    padding-left: 50px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+}
+.card2 {
+    padding-left: 50px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    flex: auto;
+}
+.photo{
+    width: 200px ;
+    cursor: pointer ;
+}
+.headerh1{
+  align-items: right;
+}
+.page-header{
+  padding: 15px 3%;
+   display: flex ;
+   justify-content: space-between ;
+   align-items: center;
+   background: #ff7f7f;
+   width: auto;
+}
+.dropdown {
+    /*display: inline-block;*/
+    display: inline-block;
+    position: relative;
+
+}
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #006666;
+    min-width: 50px;
+    margin: 1px;
+    padding: 1px 1px;
+    z-index: 1;
+}
+.indented {
+    width:auto;
+    margin: 8px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.search {
+    height: auto;
+}
+.main-menu a{
+  text-decoration: none;
+  color: aquamarine;
+    color: #fef200;
+}
+.main-menu li{
+    display: block;
+    padding: auto;
+}
+.id mypic {
+   width: 100px;
+    height: 20px;
+}
+
+@media (min-width:768px){
+    header{
+        width: 75%;
+    }
+    nav {
+        width: 60%;
+    }
+    .menu-button{
+        display: none;
+    }
+    .menu-nav{
+        display: block;
+        border: none;
+        position: static;
+        width: 100%;
+    }
+}
